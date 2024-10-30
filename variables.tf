@@ -50,4 +50,8 @@ variable "myhostname" {
   description = "myhost_name"
 
 }
+variable "dns_zone_id" {
+  type        = string
+  description = "dns_zone_id"
+}
 

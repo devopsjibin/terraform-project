@@ -8,3 +8,4 @@ type                 = "t2.micro"
 webserver_allowports = ["80", "443","22"]
 mydomain_name        = "dev.devopstudy.online"
 myhostname           = "terraform-development"
+dns_zone_id          = "Z01046212NIYWB47VTT32"
