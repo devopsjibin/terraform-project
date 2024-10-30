@@ -47,3 +47,10 @@ resource "aws_instance" "mywebserver" {
     name = "${var.projectname}-${var.project_env} -webserver"
   }
 }
+
+
+#adding elastic-ip
+resource "aws_eip" "webserver_frontend" {
+  instance = aws_instance.mywebserver.id
+  domain   = "vpc"
+}
