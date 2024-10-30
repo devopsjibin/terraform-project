@@ -1,0 +1,10 @@
+aws_region           = "ap-south-1"
+projectname          = "terraform"
+project_env          = "production"
+emailid              = "jibinwilson045@gmail.com"
+myvpc                = "vpc-0354c49883ff279b9"
+ami                  = "ami-0e53db6fd757e38c7"
+type                 = "t2.micro"
+webserver_allowports = ["80", "443"]
+mydomain_name        = "devopstudy.online"
+myhostname           = "terraform-production"
